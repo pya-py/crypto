@@ -1,0 +1,39 @@
+body{
+    /* background: url('./assets/banner.jpg') center center; */
+    height: 90vh;
+}
+
+.banner {
+    background: url('./banner.jpg');
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 350px;
+}
+
+.search-body {
+    position: relative;
+    top: 370px;
+    color: white;
+}
+.table-book-list {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.table-book-list {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.table-book-list th,
+.table-book-list td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}

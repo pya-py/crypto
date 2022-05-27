@@ -1,0 +1,37 @@
+
+  .coin-card {
+    color: white;
+    display: block;
+    height: 5rem;
+    width: 11rem;
+    text-align: right;
+    background: transparent;
+    border-radius: 1rem;
+    transition: .5s;
+    font-size: 14px;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+  
+  .coin-card:before {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius:50%;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  .coin-card:hover:before {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #d35400;
+    filter: blur(3px);
+  }
+  
+  .coin-card:hover {
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+  }

@@ -1,0 +1,11 @@
+
+
+.input-box{
+    width: 100%;
+    background: transparent;
+    padding: 1rem;
+    border: 1px solid gray;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
