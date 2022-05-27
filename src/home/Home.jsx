@@ -11,7 +11,7 @@ const Home = () => {
     useEffect(() => {
 
         document.body.style.background =
-            "url(./img/background.png) center center"; //change the background image for home page
+            "url(public/img/background.png) center center"; //change the background image for home page
         const searches = JSON.parse(localStorage.getItem("searches")) || [
             "Bitcoin",
             "Ethereum",

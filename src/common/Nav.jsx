@@ -4,7 +4,7 @@ const Nav = () => {
     return (
         <div className="-row- --col--11" >
             <nav>
-                <GlowyButton to="/" float="right">Change Theme</GlowyButton>
+                <GlowyButton color="black" to="/" float="right">Change Theme</GlowyButton>
                 
             </nav>
         </div>

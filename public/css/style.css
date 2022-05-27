@@ -2,8 +2,9 @@ html {
     font-family: 'poppins', 'sans-serif' !important;
 }
 body {
-    color: white;
-    background: black;
+    /* color: white; */
+    /* background: black; */
+    background: url('./img/background.png')
 }
 
 * {
